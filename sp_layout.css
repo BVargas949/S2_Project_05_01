@@ -112,12 +112,44 @@ ul#topics li img {
 }
 
 /* HR Styles */
+hr {
+    width: 50%;
+}
 
-
-
+/* The customer comments were unordered lists were resized with a width of 75%. Space was added using Margin top/bottom (40 pixels). The ul was also centered using auto on the left and rigth margins. The list items within the unordered lists were displayed as block, resized with a width of 50%, moved to the left using float, and added space to the bottom by affecting the margin (bottom) with 30px. The images within the unordered lists were displayed as block elements, resized with a width of 20%, floated to the left, increases spaceing in the margin by 5%. */
 
 /* Customer Comment Styles */
+ul#comments {
+    width: 75%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+ul#comments li {
+    display: block;
+    width: 50%;
+    float: left;
+    margin-bottom: 30px;
+}
 
+ul#comments li img {
+    display: block;
+    width: 20%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+ul#comments li p {
+    float: left;
+    width: 70%;
+}
+
+/* The footer was given a clear of both so it would surround the comments. */
 
 /* Footer Styles */
+footer {
+    clear: both;
+}
